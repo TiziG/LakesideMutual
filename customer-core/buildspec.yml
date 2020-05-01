@@ -8,7 +8,7 @@ phases:
     commands:
       - pwd
       - ls
-      - cd customer-care
+      - cd customer-core
   build:
     commands:
       - echo Build started on `date`
