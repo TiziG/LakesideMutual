@@ -7,9 +7,13 @@ phases:
   pre_build:
     commands:
       - pwd
+      - ls
+      - cd customer-care
   build:
     commands:
       - echo Build started on `date`
+      - pwd
+      - ls
       - mvn install
   post_build:
     commands:
